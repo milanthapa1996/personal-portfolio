@@ -8,7 +8,7 @@ import EducationCard from "./components/leftSide/EducationCard";
 import ProjectCard from "./components/rightSide/ProjectCard";
 import BlogsCard from "./components/rightSide/BlogsCard";
 import ScrollUp from "./components/ScrollUp";
-import Footer from "./components/footer/Footer";
+// import Footer from "./components/footer/Footer";
 
 function App() {
   return (
