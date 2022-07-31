@@ -10,6 +10,7 @@ const Profile = () => {
     "JavaScript",
     "React",
     "Node.js",
+    "Python"
   ];
   return (
     <div className="bg-white rounded-lg shadow-2xl min-h-[100px] p-5 flex justify-center items-center flex-col">
