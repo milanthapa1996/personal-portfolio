@@ -1,4 +1,3 @@
-import "./App.css";
 import ChangeTheme from "./components/leftSide/ChangeTheme";
 import Profile from "./components/leftSide/Profile";
 import LinkCard from "./components/leftSide/LinkCard";
@@ -12,9 +11,9 @@ import ScrollUp from "./components/ScrollUp";
 
 function App() {
   return (
-    <>
+    <div className="bg-white dark:bg-slate-900">
       <ScrollUp />
-      <div className="grid gap-4 grid-cols-1 lg:grid-cols-3 p-5 scroll-smooth">
+      <div className="grid gap-4 grid-cols-1 lg:grid-cols-3 p-5 scroll-smooth ">
         <div className="grid gap-y-5 grid-cols-1">
           <ChangeTheme />
           <Profile />
@@ -28,7 +27,7 @@ function App() {
           <BlogsCard />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

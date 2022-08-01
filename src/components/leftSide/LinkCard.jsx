@@ -61,8 +61,8 @@ const LinkCard = () => {
     },
   ];
   return (
-    <div className="bg-white rounded-lg shadow-2xl min-h-[100px]">
-      <ul className="p-5 flex flex-col space-y-8 text-slate-500">
+    <div className="bg-white dark:bg-slate-800 rounded-lg shadow-2xl min-h-[100px]">
+      <ul className="p-5 flex flex-col space-y-8 text-slate-500 dark:text-gray-100">
         {socialLinks.map((link, index) => (
           <li
             key={index}

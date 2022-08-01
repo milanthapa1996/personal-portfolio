@@ -45,14 +45,14 @@ const EducationCard = () => {
     },
   ];
   return (
-    <div className="bg-white rounded-lg shadow-2xl min-h-[100px] p-5">
-      <h1 className="text-slate-700 font-semibold text-2xl">Education</h1>
+    <div className="bg-white dark:bg-slate-800 rounded-lg shadow-2xl min-h-[100px] p-5">
+      <h1 className="text-slate-700 dark:text-gray-100 font-semibold text-2xl">Education</h1>
 
       <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-5">
         {schoolList.map((school) => (
           <li class="mb-10 ml-6">
             <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-              <BiBookReader className="text-blue-600" />
+              <BiBookReader className="text-blue-600 dark:text-gray-100" />
             </span>
             <h3 class="flex items-center mb-1 text-xs text-gray-400 dark:text-white">
               {school.timeSpanFrom} -{" "}
