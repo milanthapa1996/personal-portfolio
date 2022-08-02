@@ -1,7 +1,10 @@
 import React from "react";
 import { BiBookReader } from "react-icons/bi";
+import { useContext } from "react";
+import UserContext from "../../context/UserContext";
 
 const EducationCard = () => {
+  const { loading, error, profileData } = useContext(UserContext);
   const schoolList = [
     {
       name: "IGNOU",
@@ -46,10 +49,12 @@ const EducationCard = () => {
   ];
   return (
     <div className="bg-white dark:bg-slate-800 rounded-lg shadow-2xl min-h-[100px] p-5">
-      <h1 className="text-slate-700 dark:text-gray-100 font-semibold text-2xl">Education</h1>
+      <h1 className="text-slate-700 dark:text-gray-100 font-semibold text-2xl">
+        Education
+      </h1>
 
       <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-5">
-        {schoolList.map((school,index) => (
+        {schoolList.map((school, index) => (
           <li className="mb-10 ml-6" key={index}>
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
               <BiBookReader className="text-blue-600 dark:text-gray-100" />
