@@ -7,11 +7,10 @@ import EducationCard from "./components/leftSide/EducationCard";
 import ProjectCard from "./components/rightSide/ProjectCard";
 import BlogsCard from "./components/rightSide/BlogsCard";
 import ScrollUp from "./components/ScrollUp";
-// import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="bg-white dark:bg-slate-900">
+    <div className="bg-gray-200 dark:bg-slate-900">
       <ScrollUp />
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-3 p-5 scroll-smooth ">
         <div className="grid gap-y-5 grid-cols-1">

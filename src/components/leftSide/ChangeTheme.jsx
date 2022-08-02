@@ -35,7 +35,6 @@ useEffect(()=>{
         <div
           className="flex flex-row justify-center items-center border-2 w-12 h-12 border-double rounded-lg border-slate-300 hover:border-slate-400 "
           onClick={() => {
-            console.info('working',!darkMode)
             setDarkMode(!darkMode);
           }}
         >

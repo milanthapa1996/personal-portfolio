@@ -23,8 +23,8 @@ const Profile = () => {
         Milan Thapa
       </h1>
       <h2 className="text-center mt-3">
-        {profileTags.map((tag) => (
-          <span className="inline-block text-md font-mono text-slate-500 dark:text-gray-300 mr-1">
+        {profileTags.map((tag,index) => (
+          <span className="inline-block text-md font-mono text-slate-500 dark:text-gray-300 mr-1" key={index}>
             [{tag}]
           </span>
         ))}

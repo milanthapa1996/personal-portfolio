@@ -46,26 +46,26 @@ const BlogsCard = () => {
       </div>
       <div className="grid grid-cols-1 gap-4 mt-4">
         {projects.map((project, index) => (
-          <div class="bg-white dark:bg-slate-700 rounded-xl shadow-md overflow-hidden" key={index}>
-            <div class="md:flex">
-              <div class="md:shrink-0">
+          <div className="bg-white dark:bg-slate-700 rounded-xl shadow-md overflow-hidden" key={index}>
+            <div className="md:flex">
+              <div className="md:shrink-0">
                 <img
-                  class="h-48 w-full object-cover md:h-full md:w-48"
+                  className="h-48 w-full object-cover md:h-full md:w-48"
                   src="https://picsum.photos/seed/picsum/200/200"
                   alt="Man looking at item at a store"
                 />
               </div>
-              <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-indigo-500 dark:text-gray-100 font-semibold">
+              <div className="p-8">
+                <div className="uppercase tracking-wide text-sm text-indigo-500 dark:text-gray-100 font-semibold">
                   Case study
                 </div>
                 <a
                   href="#"
-                  class="block mt-1 text-lg leading-tight font-medium text-black dark:text-gray-300 hover:underline"
+                  className="block mt-1 text-lg leading-tight font-medium text-black dark:text-gray-300 hover:underline"
                 >
                   Finding customers for your new business
                 </a>
-                <p class="mt-2 text-slate-500 dark:text-gray-400">
+                <p className="mt-2 text-slate-500 dark:text-gray-400">
                   Getting a new business off the ground is a lot of hard work.
                   Here are five ideas you can use to find your first customers.
                 </p>
