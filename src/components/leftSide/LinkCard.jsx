@@ -7,15 +7,8 @@ import {
 } from "react-icons/ai";
 import { SiTwitter } from "react-icons/si";
 import { GrLinkedinOption } from "react-icons/gr";
-import { CgDribbble } from "react-icons/cg";
 import { RiYoutubeFill } from "react-icons/ri";
-import {
-  FaBehanceSquare,
-  FaBuilding,
-  FaDev,
-  FaFacebook,
-  FaGlobe,
-} from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const LinkCard = () => {
   const socialLinks = [

@@ -13,8 +13,9 @@ import { UserContextProvider } from "./context/UserContext";
 function App() {
 
   return (
+    <div className="bg-gray-200 dark:bg-slate-900">
     <UserContextProvider>
-      <div className="bg-gray-200 dark:bg-slate-900">
+      <div >
         <ScrollUp />
         <div className="grid gap-4 grid-cols-1 lg:grid-cols-3 p-5 scroll-smooth ">
           <div className="grid gap-y-5 grid-cols-1">
@@ -25,13 +26,14 @@ function App() {
             <ExperienceCard />
             <EducationCard />
           </div>
-          <div className="grid gap-y-5 grid-cols-1 col-span-2 mt-4 mb-4 lg:mt-0 max-h-screen">
+          <div className="grid gap-y-5 grid-cols-1 col-span-2 mt-4 mb-4 lg:mt-0 h-fit">
             <ProjectCard />
             <BlogsCard />
           </div>
         </div>
       </div>
     </UserContextProvider>
+    </div>
   );
 }
 
